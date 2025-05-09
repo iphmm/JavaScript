@@ -1,0 +1,82 @@
+
+
+1) Crie uma classe para representar carros. 
+Os carros possuem uma marca, uma cor e um gasto médio de combustível por Kilômetro rodado.
+Crie um método que dado a quantidade de quilómetros e o preço do combustível nos dê o valor 
+gasto em reais para realizar este percurso.
+
+2) Crie uma classe para representar pessoas.
+Para cada pessoa teremos os atributos nome, peso e altura.
+As pessoas devem ter a capacidade de dizer o valor do seu IMC (IMC = peso / (altura * altura));
+Instancie uma pessoa chamada José que tenha 70kg de peso e 1,75 de altura e peça ao José para dizer o valor
+do seu IMC;
+
+
+Exercicos do CHATGPT:
+
+📦 1. Classe Produto
+Crie uma classe Produto com os seguintes atributos:
+
+nome
+
+preco
+
+quantidade
+
+Métodos:
+
+calcularTotal() → retorna o valor total em estoque (preco * quantidade)
+
+exibir() → mostra todas as informações do produto e o valor total
+
+🚗 2. Classe Carro (com autonomia)
+Crie uma classe Carro com:
+
+modelo
+
+autonomia (km por litro)
+
+Método:
+
+calcularViagem(distancia, precoCombustivel) → retorna o custo da viagem com base na distância e autonomia
+
+🎓 3. Classe Aluno
+Atributos:
+
+nome
+
+notas (array de 3 números)
+
+Métodos:
+
+media() → retorna a média das notas
+
+aprovado() → retorna true se a média for ≥ 7, senão false
+
+exibir() → exibe nome, notas, média e status (aprovado ou reprovado)
+
+🧍 4. Classe Pessoa + método de aniversário
+Classe Pessoa com:
+
+nome
+
+idade
+
+Métodos:
+
+fazerAniversario() → aumenta a idade em 1
+
+exibir() → mostra nome e idade
+
+📅 5. Classe Relógio Simples
+Classe Relogio com:
+
+hora
+
+minuto
+
+Método:
+
+exibirHora() → mostra no formato HH:MM
+
+adicionarMinutos(minutos) → soma os minutos e ajusta a hora se passar de 60
